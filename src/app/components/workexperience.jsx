@@ -18,12 +18,12 @@ const Workexperience = () => {
 
         <div className="container relative lg:mx-auto">
           <div
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-duration="700"
             className="absolute w-1 z-0 h-full bg-white/10 shadow-md left-[40px] inset-0 md:mx-auto md:right-0 md:left-0"
           ></div>
           <div
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-duration="700"
             className="relative z-10"
           >
@@ -56,7 +56,7 @@ const Workexperience = () => {
             </div>
           </div>
           <div
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-duration="700"
             className="relative z-10 py-10"
           >
@@ -89,7 +89,7 @@ const Workexperience = () => {
             </div>
           </div>
           <div
-            data-aos="zoom-in"
+            data-aos="fade-up"
             data-aos-duration="700"
             className="relative z-10"
           >

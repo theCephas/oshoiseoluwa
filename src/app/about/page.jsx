@@ -10,7 +10,7 @@ import Me from "../../../public/thecephas.jpg";
 import Icon from "@mdi/react";
 import { mdiOpenInNew, mdiEmail } from "@mdi/js";
 import { motion, useScroll, useCycle, AnimatePresence, MotionConfig } from "framer-motion";
-import { useRef } from "react";
+import "../styles.css";
 import React from "../../../public/react.svg";
 import Tailwind from "../../../public/tailwind.svg";
 import Sass from "../../../public/sass.svg";
@@ -18,15 +18,15 @@ import Js from "../../../public/js.svg";
 import Ts from "../../../public/ts.svg";
 import Html from "../../../public/html.svg";
 import Css from "../../../public/css.svg";
-import Nextjs from "../../../public/next.svg";
+import Nextjs from "../../../public/nextjs.svg";
 import Chrome from "../../../public/chrome.svg";
 import Vercel from "../../../public/vercell.svg";
+import Git from "../../../public/git.svg";
+import Github from "../../../public/github.svg";
 
 
 
 export default function About(){
-
-  const constraintsRef = useRef(null);
 
   useEffect(() => {
     AOS.init({});
@@ -48,29 +48,7 @@ export default function About(){
               style={{ scaleX: scrollYProgress }}
               className="bg-green-400 z-50 fixed top-0 left-0 right-0 h-1 transform origin-[0%]"
             />
-            <motion.main
-              className="pt-20 px-8 lg:px-15"
-              variants={{
-                open: {
-                  y: "0%",
-                  transition: {
-                    type: "spring",
-                    bounce: 0.25,
-                    when: "beforeChildren",
-                  },
-                },
-                closed: {
-                  y: "-100%",
-                  transition: {
-                    type: "spring",
-                    bounce: 0.25,
-                    when: "afterChildren",
-                  },
-                },
-              }}
-              animate="open"
-              initial="closed"
-            >
+            <motion.main className="pt-20 px-8 lg:px-15">
               <section className="flex flex-col lg:flex-row-reverse lg:justify-between max-w-[1024px] mx-auto">
                 <div data-aos="zoom-in" data-aos-duration="700">
                   <Image
@@ -190,17 +168,122 @@ export default function About(){
                       data-aos-duration="700"
                       className="font-cantarella leading-10 pt-7 text-3xl font-bold lg:w-[600px]"
                     >
-                      Technologies
+                      Technologies & Tools
                     </h3>
 
-                    <div>
-                      <Image 
-                      src={React}
-                      width={30}
-                      height={30}
-                      alt="React Icon"
-                      className="animate-rotate duration-10 transform origin-center hover:animate-none hover:rotate-0"
-                      />
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-duration="900"
+                      className="mt-6 grid grid-cols-3 xs:grid-cols-4 gap-6"
+                    >
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Js}
+                          width={70}
+                          height={70}
+                          alt="Js Icon"
+                          className="absolute m-auto top-0 bottom-0 right-0 left-0 "
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Ts}
+                          width={70}
+                          height={70}
+                          alt="Ts Icon"
+                          className="absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={React}
+                          width={70}
+                          height={70}
+                          alt="React Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Tailwind}
+                          width={70}
+                          height={70}
+                          alt="Tailwind Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Nextjs}
+                          width={70}
+                          height={70}
+                          alt="Nextjs Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Html}
+                          width={70}
+                          height={70}
+                          alt="Html Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Css}
+                          width={70}
+                          height={70}
+                          alt="Css Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Git}
+                          width={70}
+                          height={70}
+                          alt="Git Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Github}
+                          width={70}
+                          height={70}
+                          alt="Github Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Chrome}
+                          width={70}
+                          height={70}
+                          alt="Chrome Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Sass}
+                          width={70}
+                          height={70}
+                          alt="Sass Icon"
+                          className="rotate absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
+                      <p className=" bg-white/60 w-[80px] h-[80px] relative">
+                        <Image
+                          src={Vercel}
+                          width={70}
+                          height={70}
+                          alt="Vercel Icon"
+                          className="absolute right-0 left-0 top-0 bottom-0 m-auto"
+                        />
+                      </p>
                     </div>
                   </div>
                 </div>
