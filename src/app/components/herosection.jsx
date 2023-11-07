@@ -122,7 +122,6 @@ const Herosection = () => {
         <div
           className="lg:mt-[-90px]"
           data-aos="zoom-in"
-          data-aos-duration="700"
         >
           <motion.svg
             viewBox="0 0 100 100"
