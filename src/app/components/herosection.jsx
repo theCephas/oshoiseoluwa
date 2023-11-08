@@ -42,7 +42,7 @@ const Herosection = () => {
 
   return (
     <div className=" px-8 lg:px-15">
-      <section className="flex flex-col lg:flex-row justify-between text-white font-inter pt-[110px] max-w-[1024px] mx-auto">
+      <section className="flex flex-col md:flex-row justify-between text-white font-inter pt-[110px] max-w-[1024px] mx-auto">
         <div>
           <h1
             data-aos="fade-up"
@@ -53,7 +53,7 @@ const Herosection = () => {
           </h1>
           <p
             data-aos="zoom-in"
-            className="py-8 text-[14px] leading-6 sm:w-[500px] lg:w-[600px] text-white/50"
+            className="py-8 text-[14px] leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/50"
           >
             I&apos;m Osho Iseoluwa, prefers to be called &quot;theCephas&quot;
             though. An experienced frontend developer passionate about learning,
@@ -120,7 +120,7 @@ const Herosection = () => {
           </div>
         </div>
         <div
-          className="lg:mt-[-90px]"
+          className="md:mt-[-40px] lg:mt-[-90px]"
           data-aos="zoom-in"
         >
           <motion.svg
@@ -134,7 +134,7 @@ const Herosection = () => {
             }}
             fill-rule="evenodd"
             clip-rule="evenodd"
-            className="w-[300px] sm:w-[500px] lg:w-[400px] h-auto fill-none"
+            className="w-[280px] sm:w-[500px] md:w-[300px] lg:w-[450px] h-auto fill-none"
             variants={svgVariants}
             initial="hidden"
             animate="visible"

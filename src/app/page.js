@@ -5,7 +5,7 @@ import Navbar from "./components/navbar";
 import Herosection from "./components/herosection";
 import Footer from "./components/footer";
 import Workexperience from "./components/workexperience";
-
+import Projectslide from "./components/projectslide";
 
 export default function Home() {
 
@@ -19,6 +19,7 @@ export default function Home() {
       />
       <Navbar />
         <Herosection />
+        <Projectslide />
         <Workexperience />
         <Footer />
     </main>
