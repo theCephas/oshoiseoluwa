@@ -7,7 +7,7 @@ import Image from "next/image";
 const Workexperience = () => {
   return (
     <div className="px-8 lg:px-15">
-      <section className=" max-w-[1024px] mx-auto">
+      <section className=" max-w-[1440px] mx-auto">
         <h1
           data-aos="zoom-in"
           data-aos-duration="700"
