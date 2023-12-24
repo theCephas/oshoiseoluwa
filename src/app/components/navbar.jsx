@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileNav, toggleMobileNav] = useCycle(false, true);
 
   return (
-    <nav className="py-4 px-8 lg:px-15 border-b border-white/30 sticky top-0 z-30 backdrop-blur-md">
+    <nav className="py-3 px-6 lg:px-15 border-b border-white/30 sticky top-0 z-30 backdrop-blur-md">
       <header className="flex items-center justify-between max-w-[1440px] mx-auto">
         <Link
           href="/"
@@ -33,7 +33,7 @@ export default function Navbar() {
           <Icon
             path={mdiGithub}
             size={1.2}
-            className="inline mr-[1px] text-white/40 hover:text-white duration-500"
+            className="inline mr-[1px] text-white/40 hover:text-green-400 duration-500"
           />
           gitHub
         </a>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Hng from "../../../public/hng.webp";
 import Drycode from "../../../public/drycode.webp";
 import Ilead from "../../../public/ilead.webp";
@@ -6,14 +6,14 @@ import Image from "next/image";
 
 const Workexperience = () => {
   return (
-    <div className="px-8 lg:px-15">
+    <div className="px-6 lg:px-15">
       <section className=" max-w-[1440px] mx-auto">
         <h1
           data-aos="zoom-in"
           data-aos-duration="700"
           className="font-inter font-bold pt-[100px] pb-20 text-white text-3xl"
         >
-          Work Experience
+          Work Experience 👨‍💻
         </h1>
 
         <div className="container relative lg:mx-auto">
@@ -126,6 +126,6 @@ const Workexperience = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Workexperience
+export default Workexperience;

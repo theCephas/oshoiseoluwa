@@ -12,9 +12,9 @@ export default function Home() {
 
   return (
     <main
-      // className="min-h-screen scroll-ms-72 relative bg-[#000301] bg-blackorchid"
+      className="min-h-screen scroll-ms-72 relative bg-[#000301] bg-blackorchid"
       style={{ scrollBehavior: "smooth" }}
-      className="min-h-screen relative bg-[#092100] bg-blackorchid"
+      // className="min-h-screen relative bg-[#092100] bg-blackorchid"
     >
       <motion.div
         style={{ scaleX: scrollYProgress }}

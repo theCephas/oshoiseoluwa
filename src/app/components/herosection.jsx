@@ -40,7 +40,7 @@ const Herosection = () => {
   }, []);
 
   return (
-    <div className=" px-8 lg:px-15">
+    <div className=" px-6 lg:px-15">
       <section className="flex flex-col md:flex-row md:items-center md:justify-between text-white font-inter pt-[90px] max-w-[1440px] mx-auto">
         <div>
           <h1
@@ -52,7 +52,7 @@ const Herosection = () => {
           </h1>
           <p
             data-aos="zoom-in"
-            className="py-8 text-[14px] leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/50"
+            className="py-8 text-[14px] leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/70"
           >
             I&apos;m Osho Iseoluwa, prefers to be called &quot;theCephas&quot;
             though. An experienced frontend developer passionate about learning,
