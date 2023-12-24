@@ -77,16 +77,16 @@ const Projects = () => {
           <p className="font-inter font-bold pt-[100px] text-white text-3xl">
             Projects 👨‍🍳
           </p>
-          <p className="font-inter font-bold pt-[12px] pb-20 text-white text-sm">
+          <p className="font-cantarella font-bold pt-[12px] pb-20 text-white text-[12px] sm:text-sm leading-10 tracking-wider">
             some of the projects I&apos;ve cooked! Check my{" "}
             <a
               href="https://github.com/theCephas"
               target="_blank"
               className="underline underline-offset-2"
             >
-              Github
+              github
             </a>{" "}
-            for more 🚀
+            for more! 🚀
           </p>
         </div>
         <div className="grid grid-cols-1 gap-10 sm:gap-16 sm:place-content-center sm:grid-cols-2 md:grid-cols-3">

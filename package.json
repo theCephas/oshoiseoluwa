@@ -19,6 +19,8 @@
     "react-headroom": "^3.2.1"
   },
   "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.45",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",

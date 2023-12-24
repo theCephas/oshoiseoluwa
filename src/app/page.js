@@ -6,15 +6,16 @@ import Herosection from "./components/herosection";
 import Footer from "./components/footer";
 import Workexperience from "./components/workexperience";
 import Projects from "./components/projects";
+import Skillsnservices from "./components/skillsnservices";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
 
   return (
     <main
-      className="min-h-screen scroll-ms-72 relative bg-[#000301] bg-blackorchid"
+      // className="min-h-screen scroll-ms-72 relative bg-[#000301] bg-blackorchid"
       style={{ scrollBehavior: "smooth" }}
-      // className="min-h-screen relative bg-[#092100] bg-blackorchid"
+      className="min-h-screen relative bg-[#092100] bg-blackorchid"
     >
       <motion.div
         style={{ scaleX: scrollYProgress }}
@@ -22,6 +23,7 @@ export default function Home() {
       />
       <Navbar />
       <Herosection />
+      <Skillsnservices />
       <Projects />
       <Workexperience />
       <Footer />
