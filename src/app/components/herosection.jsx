@@ -44,8 +44,8 @@ const Herosection = () => {
       <section className="flex flex-col md:flex-row md:items-center md:justify-between text-white font-inter pt-[90px] max-w-[1440px] mx-auto">
         <div>
           <h1
-            data-aos="fade-up"
-            data-aos-duration="800"
+            data-aos="zoom-in"
+            data-aos-duration="500"
             className="font-cantarella leading-10 text-3xl sm:w-[300px] lg:text-5xl font-bold lg:w-[600px]"
           >
             Frontend Developer & Technical Writer
@@ -61,7 +61,7 @@ const Herosection = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <p
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-duration="700"
               className="leading-7 pb-6 text-[14.8px] font-inter md:w-[300px]"
             >
@@ -71,7 +71,7 @@ const Herosection = () => {
             </p>
 
             <p
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-duration="700"
               className="leading-7 pb-6 text-[14.8px] font-inter md:w-[300px]"
             >
