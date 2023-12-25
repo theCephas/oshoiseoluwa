@@ -11,7 +11,7 @@ const Workexperience = () => {
         <h1
           data-aos="zoom-in"
           data-aos-duration="700"
-          className="panchang font-bold pt-[100px] pb-20 text-white text-3xl"
+          className="panchang font-bold pt-[100px] pb-20 text-white text-2xl sm:text-3xl"
         >
           Work Experience 👨‍💻
         </h1>

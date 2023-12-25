@@ -79,7 +79,7 @@ const Projects = () => {
           </p>
           <p
             className="font-cantarella
-           font-bold pt-[12px] pb-20 text-white text-[12px] sm:text-sm leading-10 tracking-wider"
+           font-bold pt-[12px] pb-20 text-white text-[12px] sm:text-sm leading-5 tracking-wider"
           >
             some of the projects I&apos;ve cooked! Check my{" "}
             <a
