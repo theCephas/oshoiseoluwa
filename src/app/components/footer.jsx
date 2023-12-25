@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="pt-[150px] font-inter">
+    <div className="pt-[150px] font-cantarella">
       <div className="border-t border-white/20 p-20 text-white text-[13px]">
         <p className="text-center">Built with:</p>
         <div className="flex items-center justify-center py-6 text-[11px] lg:text-[12px]">
@@ -46,6 +46,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

@@ -16,8 +16,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         blackorchid:
-          'url("https://www.transparenttextures.com/patterns/bedge-grunge.png")',
-        // 'url("https://transparenttextures.com/patterns/black-orchid.png")',
+          // 'url("https://www.transparenttextures.com/patterns/bedge-grunge.png")',
+          'url("https://transparenttextures.com/patterns/black-orchid.png")',
         // url(
         // "https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png",
       },

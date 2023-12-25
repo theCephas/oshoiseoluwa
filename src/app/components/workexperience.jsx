@@ -11,7 +11,7 @@ const Workexperience = () => {
         <h1
           data-aos="zoom-in"
           data-aos-duration="700"
-          className="font-inter font-bold pt-[100px] pb-20 text-white text-3xl"
+          className="panchang font-bold pt-[100px] pb-20 text-white text-3xl"
         >
           Work Experience 👨‍💻
         </h1>
@@ -42,8 +42,12 @@ const Workexperience = () => {
                 rotate-45 bg-white/30 backdrop-blur-md xs:top-8 xs:left-[112px] md:left-14"
               ></div>
               <div className="text-white font-cantarella bg-white/30 backdrop-blur-md rounded-xl p-4">
-                <p className="">iLead Consult Africa</p>
-                <p className="text-[14px]">Content Writer</p>
+                <p className="panchang font-[600] text-[#5c8374]">
+                  iLead Consult Africa
+                </p>
+                <p className="text-[12px] font-[500] panchang">
+                  Content Writer
+                </p>
                 <p className="text-white/50 tracking-wide">
                   AUG 2022 - FEB 2023
                 </p>
@@ -75,8 +79,12 @@ const Workexperience = () => {
                 rotate-45 bg-white/30 backdrop-blur-md xs:top-8 xs:left-[112px] md:left-auto md:right-14"
               ></div>
               <div className="text-white font-cantarella bg-white/30 backdrop-blur-md rounded-xl p-4">
-                <p className="">Drycode Organization</p>
-                <p className="text-[14px]">Frontend Developer Intern</p>
+                <p className="panchang font-[600] text-[#5c8374]">
+                  Drycode Organization
+                </p>
+                <p className="text-[12px] font-[500] panchang">
+                  Frontend Developer Intern
+                </p>
                 <p className="text-white/50 tracking-wide">
                   July 2023 - August 2023
                 </p>
@@ -108,8 +116,12 @@ const Workexperience = () => {
                 rotate-45 bg-white/30 backdrop-blur-md xs:top-8 xs:left-[112px] md:left-14"
               ></div>
               <div className="text-white font-cantarella bg-white/30 backdrop-blur-md rounded-xl p-4">
-                <p className="">HNGx Internship</p>
-                <p className="text-[14px]">Frontend Developer Intern</p>
+                <p className="panchang text-[#5C8374] font-[600]">
+                  HNGx Internship
+                </p>
+                <p className="text-[12px] font-[500] panchang">
+                  Frontend Developer Intern
+                </p>
                 <p className="text-white/50 tracking-wide">
                   SEPT 2022 - OCTOBER 2023
                 </p>

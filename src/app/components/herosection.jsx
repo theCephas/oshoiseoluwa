@@ -41,18 +41,18 @@ const Herosection = () => {
 
   return (
     <div className=" px-6 lg:px-15">
-      <section className="flex flex-col md:flex-row md:items-center md:justify-between text-white font-inter pt-[90px] max-w-[1440px] mx-auto">
+      <section className="flex flex-col md:flex-row md:items-center md:justify-between text-white font-cantarella pt-[60px] max-w-[1440px] mx-auto">
         <div>
           <h1
             data-aos="zoom-in"
             data-aos-duration="500"
-            className="font-cantarella leading-10 text-3xl sm:w-[300px] lg:text-5xl font-bold lg:w-[600px]"
+            className="panchang leading-[50px] text-4xl lg:text-5xl font-bold"
           >
-            Frontend Developer & Technical Writer
+            Frontend Developer & Technical Writer🔥
           </h1>
           <p
             data-aos="zoom-in"
-            className="py-8 text-[14px] leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/70"
+            className="py-8 text-[14px] font-cantarella leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/70"
           >
             I&apos;m Osho Iseoluwa, prefers to be called &quot;theCephas&quot;
             though. An experienced frontend developer passionate about learning,
@@ -63,7 +63,7 @@ const Herosection = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="700"
-              className="leading-7 pb-6 text-[14.8px] font-inter md:w-[300px]"
+              className="leading-7 pb-6 text-[14.8px] font-cantarella md:w-[300px]"
             >
               I am a self-driven, innovative, young, and creative individual
               with keen interest to learning, building stuffs, and solving
@@ -73,7 +73,7 @@ const Herosection = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="700"
-              className="leading-7 pb-6 text-[14.8px] font-inter md:w-[300px]"
+              className="leading-7 pb-6 text-[14.8px] font-cantarella md:w-[300px]"
             >
               2+ years experience in crafting unique websites, and generating
               mobile-friendly services.
@@ -130,8 +130,8 @@ const Herosection = () => {
             </a>
           </div>
         </div>
-        <div className="mt-12 md:mt-0">
-          <div className="relative border-4 border-green-400 w-[300px]">
+        <div data-aos="zoom-in" className="mt-12 md:mt-0">
+          <div className="relative border-4 border-[#93b1a6] w-[300px]">
             <Image
               src={Avatar}
               width={300}

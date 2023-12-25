@@ -74,10 +74,13 @@ const Projects = () => {
     <div className="px-8 lg:px-10">
       <section className="mx-auto max-w-[1440px]">
         <div data-aos="zoom-in">
-          <p className="font-inter font-bold pt-[100px] text-white text-3xl">
+          <p className="panchang font-bold pt-[100px] text-white text-3xl">
             Projects 👨‍🍳
           </p>
-          <p className="font-cantarella font-bold pt-[12px] pb-20 text-white text-[12px] sm:text-sm leading-10 tracking-wider">
+          <p
+            className="font-cantarella
+           font-bold pt-[12px] pb-20 text-white text-[12px] sm:text-sm leading-10 tracking-wider"
+          >
             some of the projects I&apos;ve cooked! Check my{" "}
             <a
               href="https://github.com/theCephas"
@@ -92,14 +95,16 @@ const Projects = () => {
         <div className="grid grid-cols-1 gap-10 sm:gap-16 sm:place-content-center sm:grid-cols-2 md:grid-cols-3">
           {Project.map((item, index) => (
             <div
+              data-aos="fade-up"
               key={index}
-              className="relative  text-white hover:border-0 hover:border-white/30 border-2 border-green-500 font-cantarella"
+              className="text-white font-cantarella
+            "
             >
-              <div className="relative top-[-14px] hover:top-0 left-[-14px] hover:left-0 backdrop-blur-md bg-white/30 p-4 h-[250px] flex flex-col gap-4 duration-300">
-                <p className="font-inter text-green-400 text-[20px] font-[600] tracking-widest">
+              <div className="relative backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-[#183D3D] p-4 h-[220px] flex flex-col gap-4 duration-300">
+                <p className="panchang text-[#93B1A6] text-[20px] font-[600] tracking-widest">
                   {item.name}
                 </p>
-                <p className="text-[14px] tracking-wider py-1 text-black/50 hover:text-black/70 ">
+                <p className="text-[14px] tracking-wider py-1 text-white/70 ">
                   {item.stack}
                 </p>
                 <p className="text-[14px]">{item.about}</p>
@@ -107,7 +112,7 @@ const Projects = () => {
                   <a
                     href={item.link}
                     target="_blank"
-                    className="flex items-center tracking-widest text-[14px] hover:text-green-400 duration-500"
+                    className="flex items-center tracking-widest text-[14px] hover:text-white/70 duration-500"
                   >
                     <Icon
                       path={mdiArrowTopRight}
@@ -117,6 +122,7 @@ const Projects = () => {
                     View
                   </a>
                 </p>
+                <div className="absolute inset-x-0 bottom-0 h-[2px] bg-white scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
               </div>
             </div>
           ))}
