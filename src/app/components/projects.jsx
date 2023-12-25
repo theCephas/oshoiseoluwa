@@ -126,9 +126,9 @@ const Projects = () => {
                 </p>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-white scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
               </div> */}
-              <div className="flex group flex-col gap-16 sm:gap-24 first:border-t border border-t-0 border-white/30 hover:border-white p-4">
-                <div className="flex group justify-between">
-                  <p className="text-[14px] group-hover:text-white text-white/50 ">
+              <div className="flex group flex-col gap-[68px] sm:gap-24 first:border-t border border-t-0 border-white/30 hover:border-white p-4">
+                <div className="flex group items-center justify-between">
+                  <p className="text-[12px] sm:text-[14px] w-[200px group-hover:text-white text-white/50 ">
                     {item.stack}
                   </p>
                   <a
