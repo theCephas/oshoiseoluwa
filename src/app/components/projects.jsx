@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "@mdi/react";
-import { mdiArrowTopRight } from "@mdi/js";
+import { mdiArrowTopRight, mdiGithub } from "@mdi/js";
 
 const Projects = () => {
   const Project = [
@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       name: "TrafalgarClone",
       stack: "Bootstrap + Html",
-      about: "This is a cloned website of the trafalgar website",
+      about: "Cloned Trafalagar website",
       link: "https://trafalgar-clone-site.netlify.app/",
     },
 
@@ -16,7 +16,7 @@ const Projects = () => {
       id: 2,
       name: "RandWord",
       stack: "JavaScript + CSS + EJS + Node + Html",
-      about: "Generates random word every 24hours and a dictionary!📖",
+      about: "Random words and dictionary!📖",
       link: "https://randword.onrender.com/",
     },
     {
@@ -31,47 +31,47 @@ const Projects = () => {
       id: 4,
       name: "ToBeDone",
       stack: "ReactJs + CSS",
-      about: "A to-do list webApp",
+      about: "To-do list webApp",
       link: "https://tobedone.vercel.app/",
     },
     {
       id: 5,
       name: "BankistClone",
       stack: "JQuery + Flowbite + TailwindCss + Html",
-      about: "The Bankist App Cloned🏦",
+      about: "Cloned BankistApp🏦",
       link: "https://bankist-clone.vercel.app/",
     },
     {
       id: 6,
       name: "QuickQuizze",
       stack: "Tailwindcss + TriviaApi + Reactjs",
-      about: "A quiz webapp to test your general knowledge.",
+      about: "Quiz WebApp",
       link: "https://quick-quizze.vercel.app/",
     },
     {
       id: 7,
       name: "MovieBox",
       stack: "Tailwindcss + TMNDBApi + Reactjs + Vite",
-      about: "A Movie Webapp to view your top-rated movies read on them.",
+      about: "Movie Webapp",
       link: "https://tc-moviebox.vercel.app/",
     },
     {
       id: 8,
       name: "QrCodeGen",
       stack: "Tailwindcss + Reactjs",
-      about: "Created to generate scannable qr codes with very pleasing UI",
+      about: "Scannable Qr Codes",
       link: "https://i-qr-code-gen.vercel.app/",
     },
     {
       id: 9,
       name: "ImageGallery",
       stack: "FireBase + DnD + Tailwindcss + Reactjs",
-      about: "A drag and drop feature and authentication😊",
+      about: "DragnDrop and Authentication",
       link: "https://tc-image-gallery.vercel.app/",
     },
   ];
   return (
-    <div className="px-8 lg:px-10">
+    <div className="px-6 lg:px-15">
       <section className="mx-auto max-w-[1440px]">
         <div data-aos="zoom-in">
           <p className="panchang font-bold pt-[100px] text-white text-3xl">
@@ -92,15 +92,17 @@ const Projects = () => {
             for more! 🚀
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-10 sm:gap-16 sm:place-content-center sm:grid-cols-2 md:grid-cols-3">
+        <div
+        // className="grid grid-cols-1 gap-10 sm:gap-16 sm:place-content-center sm:grid-cols-2 md:grid-cols-3"
+        >
           {Project.map((item, index) => (
             <div
-              data-aos="fade-up"
+              // data-aos="fade-up"
               key={index}
-              className="text-white font-cantarella
+              className="font-cantarella text-white
             "
             >
-              <div className="relative backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-[#183D3D] p-4 h-[220px] flex flex-col gap-4 duration-300">
+              {/* <div className="relative backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-[#183D3D] p-4 h-[220px] flex flex-col gap-4 duration-300">
                 <p className="panchang text-[#93B1A6] text-[20px] font-[600] tracking-widest">
                   {item.name}
                 </p>
@@ -112,7 +114,7 @@ const Projects = () => {
                   <a
                     href={item.link}
                     target="_blank"
-                    className="flex items-center tracking-widest text-[14px] hover:text-white/70 duration-500"
+                    className="flex items-center tracking-widest text-[14px] hover:text-white/70"
                   >
                     <Icon
                       path={mdiArrowTopRight}
@@ -123,6 +125,44 @@ const Projects = () => {
                   </a>
                 </p>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-white scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+              </div> */}
+              <div className="flex group flex-col gap-16 sm:gap-24 first:border-t border border-t-0 border-white/30 hover:border-white p-4">
+                <div className="flex group justify-between">
+                  <p className="text-[14px] group-hover:text-white text-white/50 ">
+                    {item.stack}
+                  </p>
+                  <a
+                    className="text-white/60 group-hover:text-white"
+                    href={item.link}
+                  >
+                    <Icon
+                      path={mdiGithub}
+                      size={1.2}
+                      className="inline mr-[1px]"
+                    />
+                  </a>
+                </div>
+                <p className="panchang font-[600] text-2xl sm:text-4xl md:text-6xl">
+                  {item.name}
+                </p>
+
+                <div className="flex justify-between items-center">
+                  <p className="text-[14px] text-[#5C8374]">{item.about}</p>
+                  <p>
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      className="flex items-center tracking-widest text-[14px] text-white/60 group-hover:text-white"
+                    >
+                      <Icon
+                        path={mdiArrowTopRight}
+                        size={0.7}
+                        className="inline"
+                      />
+                      View
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           ))}
