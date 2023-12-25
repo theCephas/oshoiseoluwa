@@ -123,7 +123,7 @@ const Workexperience = () => {
                   Frontend Developer Intern
                 </p>
                 <p className="text-white/50 tracking-wide">
-                  SEPT 2022 - OCTOBER 2023
+                  SEPT 2023 - OCTOBER 2023
                 </p>
                 <p className="text-white text-[14px] pt-4">
                   Excelled in a challenging, high-pressure environment that
