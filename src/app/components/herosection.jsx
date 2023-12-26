@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
-import { motion, useScroll, useAnimation, useInView } from "framer-motion";
+
 import Avatar from "../../../public/avatar.jpg";
 import Image from "next/image";
 import Icon from "@mdi/react";
@@ -12,29 +12,6 @@ import { mdiGithub, mdiLinkedin, mdiArrowUp, mdiOpenInNew } from "@mdi/js";
 import Link from "next/link";
 
 const Herosection = () => {
-  const svgVariants = {
-    hidden: { opacity: 0, y: 75 },
-    visible: {
-      opacity: 1,
-      y: 0,
-    },
-  };
-
-  const pathVariants = {
-    hidden: {
-      opacity: 0,
-      pathLength: 0,
-    },
-    visible: {
-      opacity: 1,
-      pathLength: 1,
-      transition: {
-        duration: 2,
-        ease: "easeInOut",
-      },
-    },
-  };
-
   useEffect(() => {
     AOS.init({});
   }, []);
@@ -48,7 +25,7 @@ const Herosection = () => {
             data-aos-duration="500"
             className="panchang leading-[50px] text-4xl lg:text-5xl font-bold"
           >
-            Frontend Developer & Technical Writer🔥
+            Frontend Developer & Technical Writer 🔥
           </h1>
           <p
             data-aos="zoom-in"

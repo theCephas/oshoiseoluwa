@@ -6,7 +6,7 @@ import Herosection from "./components/herosection";
 import Footer from "./components/footer";
 import Workexperience from "./components/workexperience";
 import Projects from "./components/projects";
-import Skillsnservices from "./components/skillsnservices";
+import Contact from "./components/contact";
 import Icon from "@mdi/react";
 import { mdiArrowUp } from "@mdi/js";
 
@@ -52,9 +52,9 @@ export default function Home() {
           </p>
         </div>
       )}
-      <Skillsnservices />
       <Projects />
       <Workexperience />
+      <Contact />
       <Footer />
     </main>
   );
