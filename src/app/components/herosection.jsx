@@ -8,7 +8,7 @@ import { motion, useScroll, useAnimation, useInView } from "framer-motion";
 import Avatar from "../../../public/avatar.jpg";
 import Image from "next/image";
 import Icon from "@mdi/react";
-import { mdiGithub, mdiLinkedin, mdiTwitter, mdiOpenInNew } from "@mdi/js";
+import { mdiGithub, mdiLinkedin, mdiArrowUp, mdiOpenInNew } from "@mdi/js";
 import Link from "next/link";
 
 const Herosection = () => {
@@ -40,8 +40,8 @@ const Herosection = () => {
   }, []);
 
   return (
-    <div className=" px-6 lg:px-15">
-      <section className="flex flex-col md:flex-row md:items-center md:justify-between text-white font-cantarella pt-[60px] max-w-[1440px] mx-auto">
+    <div className=" max-w-[1440px] mx-auto px-6 lg:px-15">
+      <section className="flex flex-col lg:flex-row md:items-center md:justify-between text-white font-cantarella pt-[60px]">
         <div>
           <h1
             data-aos="zoom-in"
@@ -109,11 +109,17 @@ const Herosection = () => {
               target="_blank"
               className="mr-2"
             >
-              <Icon
-                path={mdiTwitter}
-                size={0.8}
-                className="inline mb-1 mr-[1px] text-white/40 hover:text-white duration-500"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="17"
+                height="17"
+                viewBox="0 0 50 50"
+                className="inline fill-white/40 mb-[0.8px] mr-[1px] hover:fill-white duration-500"
+              >
+                <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
+              </svg>
               Twitter
             </a>
             <a

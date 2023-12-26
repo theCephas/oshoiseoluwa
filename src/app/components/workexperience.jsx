@@ -12,6 +12,8 @@ import Tailwind from "../../../public/tailwind.svg";
 import Next from "../../../public/nextjs.svg";
 import Git from "../../../public/git.svg";
 import Ts from "../../../public/ts.svg";
+import Astro from "../../../public/astro.svg";
+import Github from "../../../public/github.svg";
 
 const Workexperience = () => {
   const Skills = [
@@ -60,11 +62,21 @@ const Workexperience = () => {
       skill: "Git",
       image: Git,
     },
+    {
+      id: 10,
+      skill: "Github",
+      image: Github,
+    },
+    {
+      id: 11,
+      skill: "Astro",
+      image: Astro,
+    },
   ];
 
   return (
     <div className="px-6 lg:px-15">
-      <section className="flex flex-col justify-between gap-4 md:flex-row max-w-[1440px] mx-auto">
+      <section className="flex flex-col justify-between gap-4 lg:flex-row max-w-[1440px] mx-auto">
         <div>
           <h1
             data-aos="zoom-in"
@@ -73,11 +85,11 @@ const Workexperience = () => {
           >
             Skills 👨‍💻
           </h1>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             {Skills.map((skill, index) => (
               <div
                 key={index}
-                className="flex items-center h-[70px] w-[300px] gap-4 p-4 group border border-white/40 hover:border-white text-white"
+                className="flex items-center sm:h-[70px] md:w-[300px] gap-4 p-4 group border border-white/40 hover:border-white transform hover:scale-95 text-white"
               >
                 <Image
                   src={skill.image}
@@ -90,6 +102,11 @@ const Workexperience = () => {
                 </p>
               </div>
             ))}
+            <div className="flex items-center  sm:h-[70px] md:w-[300px] gap-4 px-10 p-4 group border border-white/40 hover:border-white transform hover:scale-95 text-white">
+              <p className="group-hover:text-white text-white/50 text-[20px]">
+                ...
+              </p>
+            </div>
           </div>
         </div>
         <div>
@@ -103,7 +120,7 @@ const Workexperience = () => {
 
           <div className="container relative">
             <div className="absolute w-1 z-0 h-full bg-white/10 shadow-md left-[40px] inset-0"></div>
-            <div className="relative z-10 md:w-[600px]">
+            <div className="relative z-10 lg:w-[600px]">
               <Image
                 src={Ilead}
                 alt="Ilead Logo"
@@ -132,7 +149,7 @@ const Workexperience = () => {
                 </div>
               </div>
             </div>
-            <div className="relative z-10 py-10 md:w-[600px]">
+            <div className="relative z-10 py-10 lg:w-[600px]">
               <Image
                 src={Drycode}
                 alt="Drycode Logo"
@@ -163,7 +180,7 @@ const Workexperience = () => {
                 </div>
               </div>
             </div>
-            <div data-aos-duration="700" className="relative z-10 md:w-[600px]">
+            <div data-aos-duration="700" className="relative z-10 lg:w-[600px]">
               <Image
                 src={Hng}
                 alt="HNG Logo"
