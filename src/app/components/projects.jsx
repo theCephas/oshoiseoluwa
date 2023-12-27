@@ -115,7 +115,7 @@ const Projects = () => {
                     />
                   </a>
                 </div>
-                <p className="panchang font-[600] text-2xl sm:text-4xl md:text-6xl">
+                <p className="panchang font-[500] text-2xl sm:text-4xl md:text-6xl">
                   {item.name}
                 </p>
 

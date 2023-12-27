@@ -29,7 +29,7 @@ const Herosection = () => {
           </h1>
           <p
             data-aos="zoom-in"
-            className="py-8 text-[14px] font-cantarella leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/70"
+            className="py-8 text-[15px] sm:text-[16px] font-cantarella leading-6 sm:w-[500px] md:w-[400px] lg:w-[600px] text-white/70"
           >
             I&apos;m Osho Iseoluwa, prefers to be called &quot;theCephas&quot;
             though. An experienced frontend developer passionate about learning,
@@ -40,7 +40,7 @@ const Herosection = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="700"
-              className="leading-7 pb-6 text-[14.8px] font-cantarella md:w-[300px]"
+              className="leading-7 pb-6 text-[15px] sm:text-[16px] font-cantarella md:w-[300px]"
             >
               I am a self-driven, innovative, young, and creative individual
               with keen interest to learning, building stuffs, and solving
@@ -50,7 +50,7 @@ const Herosection = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="700"
-              className="leading-7 pb-6 text-[14.8px] font-cantarella md:w-[300px]"
+              className="leading-7 pb-6 text-[15px] sm:text-[16px] font-cantarella md:w-[300px]"
             >
               2+ years experience in crafting unique websites, and generating
               mobile-friendly services.
