@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="./avatar.jpg" />
+        {/* <link rel="icon" href="./avatar.jpg" /> */}
         <meta property="og:image" content="/seoimage.png" />
       </Head>
       <html lang="en">
