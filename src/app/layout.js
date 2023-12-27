@@ -10,7 +10,7 @@ export const metadata = {
   description: "Osho Iseoluwa: Frontend Developer and Technical Writer.",
   icons: {
     icon: "/avatar.jpg",
-    seoImage: "/seoimage.png",
+    seoImage: "/seoimage.jpg",
   },
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <>
       <Head>
         {/* <link rel="icon" href="./avatar.jpg" /> */}
-        <meta property="og:image" content="/seoimage.png" />
+        <meta property="og:image" content="/seoimage.jpg" />
       </Head>
       <html lang="en">
         <body className={inter.className}>{children}</body>
