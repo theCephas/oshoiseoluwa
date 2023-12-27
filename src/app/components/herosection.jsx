@@ -52,8 +52,8 @@ const Herosection = () => {
               data-aos-duration="700"
               className="leading-7 pb-6 text-[15px] sm:text-[16px] font-cantarella md:w-[300px]"
             >
-              2+ years experience in crafting unique websites, and generating
-              mobile-friendly services.
+              About 2 years experience in crafting unique websites, and
+              generating mobile-friendly services.
             </p>
           </div>
           <div className="text-[12px] mb-4">
