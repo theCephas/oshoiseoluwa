@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-6 place-content-center mt-6">
           <div
             data-aos="flip-left"
-            className="relative w-[300px] md:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[150px] flex flex-col justify-center gap-4 duration-300"
+            className="relative w-[300px] md:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[200px] flex flex-col justify-center gap-4 duration-300"
           >
             <p className="panchang text-[#93B1A6] text-[20px] font-[600] tracking-widest">
               Resume
@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
           <div
             data-aos="flip-right"
-            className="relative w-[300px] sm:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[150px] flex flex-col justify-center gap-4 duration-300"
+            className="relative w-[300px] sm:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[200px] flex flex-col justify-center gap-4 duration-300"
           >
             <p className="panchang text-[#93B1A6] text-[20px] font-[600] tracking-widest">
               Email
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div
             data-aos="flip-left"
-            className="relative w-[300px] md:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[150px] flex flex-col justify-center gap-4 duration-300"
+            className="relative w-[300px] md:w-auto backdrop-blur-md hover:shadow hover:shadow-gray-400 overflow-hidden group bg-black/20 p-4 h-[200px] flex flex-col justify-center gap-4 duration-300"
           >
             <p className="panchang text-[#93B1A6] text-[20px] font-[600] tracking-widest">
               Call Me
