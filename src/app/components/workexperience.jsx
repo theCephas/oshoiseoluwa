@@ -76,7 +76,7 @@ const Workexperience = () => {
 
   return (
     <div className="px-6 lg:px-15">
-      <section className="flex flex-col justify-between gap-4 lg:flex-row max-w-[1440px] mx-auto">
+      <section className="flex flex-col justify-between gap-4 lg:flex-row-reverse max-w-[1440px] mx-auto">
         <div>
           <h1
             data-aos="zoom-in"

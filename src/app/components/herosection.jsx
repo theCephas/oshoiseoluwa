@@ -18,7 +18,7 @@ const Herosection = () => {
 
   return (
     <div className=" max-w-[1440px] mx-auto px-6 lg:px-15">
-      <section className="flex flex-col lg:flex-row md:items-center md:justify-between text-white font-cantarella pt-[60px]">
+      <section className="flex flex-col lg:flex-row lg:items-center lg:justify-between text-white font-cantarella pt-[70px]">
         <div>
           <h1
             data-aos="zoom-in"
@@ -56,7 +56,7 @@ const Herosection = () => {
               mobile-friendly services.
             </p>
           </div>
-          <div className="text-[12px]">
+          <div className="text-[12px] mb-4">
             <a
               href="https://github.com/theCephas"
               target="_blank"
