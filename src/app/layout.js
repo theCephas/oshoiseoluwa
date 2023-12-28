@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <>
       <Head>
         {/* <link rel="icon" href="./avatar.jpg" /> */}
-        <meta property="og:image" content={metadata.icons.seoImage} />
+        <meta property="og:image" content={metadata.openGraph.images} />
       </Head>
       <html lang="en">
         <body className={inter.className}>{children}</body>
