@@ -12,6 +12,9 @@ export const metadata = {
     icon: "/avatar.jpg",
     seoImage: "/seoimage.jpg",
   },
+  openGraph: {
+    images: "/seoimage.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -19,7 +22,7 @@ export default function RootLayout({ children }) {
     <>
       <Head>
         {/* <link rel="icon" href="./avatar.jpg" /> */}
-        <meta property="og:image" content="/seoimage.jpg" />
+        <meta property="og:image" content={metadata.icons.seoImage} />
       </Head>
       <html lang="en">
         <body className={inter.className}>{children}</body>
