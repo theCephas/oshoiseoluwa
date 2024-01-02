@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-white/30 text-[11px] text-center">
-          Copyright &copy; Osho Iseoluwa 2023 All rights Reserved
+          Copyright &copy; Osho Iseoluwa 2024 All rights Reserved
         </p>
       </div>
     </div>
