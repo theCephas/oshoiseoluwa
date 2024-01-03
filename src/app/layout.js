@@ -10,10 +10,9 @@ export const metadata = {
   description: "Osho Iseoluwa: Frontend Developer and Technical Writer.",
   icons: {
     icon: "/avatar.jpg",
-    seoImage: "/seoimage.jpg",
   },
   openGraph: {
-    images: "/seoimage.jpg",
+    images: "/thecephas.jpg",
   },
 };
 
@@ -21,8 +20,8 @@ export default function RootLayout({ children }) {
   return (
     <>
       <Head>
-        {/* <link rel="icon" href="./avatar.jpg" /> */}
-        <meta property="og:image" content={metadata.openGraph.images} />
+        {/* <link rel="icon" href="/osho.jpeg" /> */}
+        {/* <meta property="og:image" content={metadata.openGraph.images} /> */}
       </Head>
       <html lang="en">
         <body className={inter.className}>{children}</body>
