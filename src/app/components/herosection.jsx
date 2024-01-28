@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
-
+import Iseoluwa from "../../app/osho.jpeg";
 import Avatar from "../../../public/avatar.jpg";
 import Image from "next/image";
 import Icon from "@mdi/react";
@@ -113,14 +113,14 @@ const Herosection = () => {
             </a>
           </div>
         </div>
-        <div data-aos="zoom-in" className="mt-12 md:mt-0">
-          <div className="relative border-4 border-[#93b1a6] w-[300px]">
+        <div data-aos="zoom-in" className="mt-12 m-auto md:mt-0">
+          <div className="relative border-4 border-[#93b1a6] w-[300px] sm:w-[400px]">
             <Image
-              src={Avatar}
-              width={300}
-              height={300}
+              src={Iseoluwa}
+              width={0}
+              height={0}
               alt="Avatar"
-              className="relative top-[-12px] left-[-14px] "
+              className="relative top-[-12px] left-[-14px] w-[300px] sm:w-[400px] "
             />
           </div>
         </div>

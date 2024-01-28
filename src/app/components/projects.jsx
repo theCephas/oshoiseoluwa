@@ -6,45 +6,31 @@ const Projects = () => {
   const Project = [
     {
       id: 1,
-      name: "RandWord",
-      stack: "JavaScript + CSS + EJS + Node + Html",
-      about: "Random words and dictionary!📖",
-      link: "https://randword.onrender.com/",
-    },
-    {
-      id: 2,
       name: "BankistClone",
       stack: "JQuery + Flowbite + TailwindCss + Html",
       about: "Cloned BankistApp🏦",
       link: "https://bankist-clone.vercel.app/",
     },
     {
-      id: 3,
+      id: 2,
       name: "QuickQuizze",
       stack: "Tailwindcss + TriviaApi + Reactjs",
       about: "Quiz WebApp",
       link: "https://quick-quizze.vercel.app/",
     },
     {
-      id: 4,
+      id: 3,
       name: "MovieBox",
       stack: "Tailwindcss + TMNDBApi + Reactjs + Vite",
       about: "Movie Webapp",
       link: "https://tc-moviebox.vercel.app/",
     },
     {
-      id: 5,
+      id: 4,
       name: "QrCodeGen",
       stack: "Tailwindcss + Reactjs",
       about: "Scannable Qr Codes",
       link: "https://i-qr-code-gen.vercel.app/",
-    },
-    {
-      id: 6,
-      name: "ImageGallery",
-      stack: "FireBase + DnD + Tailwindcss + Reactjs",
-      about: "DragnDrop and Authentication",
-      link: "https://tc-image-gallery.vercel.app/",
     },
   ];
   return (
@@ -76,7 +62,7 @@ const Projects = () => {
               className="font-cantarella text-white
             "
             >
-              <div className="flex group flex-col h-[250px] justify-center gap-[50px] first:border-t border border-t-0 border-white/30 hover:border-white p-4">
+              <div className="flex group flex-col h-[250px] justify-center cursor-pointer gap-[50px] first:border-t border border-t-0 border-white/30 hover:border-white p-4">
                 <div className="flex group items-center justify-between">
                   <p className="text-[12px] smmd:text-[14px] group-hover:text-white text-white/50 ">
                     {item.stack}
