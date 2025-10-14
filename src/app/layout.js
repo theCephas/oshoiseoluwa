@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Osho Iseoluwa || theCephas",
-  description: "Osho Iseoluwa: Frontend Developer and Technical Writer.",
+  description: "Osho Iseoluwa: Frontend Developer",
   icons: {
     icon: "/avatar.jpg",
   },
