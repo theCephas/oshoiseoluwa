@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <main
       style={{ scrollBehavior: "smooth" }}
-      className="min-h-screen relative bg-[#040d12] bg-blackorchid"
+      className="min-h-screen relative overflow-hidden bg-[#040d12] bg-blackorchid"
     >
       <motion.div
         style={{ scaleX: scrollYProgress }}
