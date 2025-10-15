@@ -122,21 +122,12 @@ const Projects = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 py-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
-        <div data-aos="fade-up" className="text-center mb-16">
-          <h2 className="panchang text-4xl lg:text-5xl font-bold text-white mb-6">
-            Featured Projects
-            <span className="text-[#5C8374] ml-2">🚀</span>
+        <div className="text-center mb-12" data-aos="fade-up">
+          <h2 className="panchang text-4xl lg:text-5xl font-bold text-white mb-4">
+            Selected Projects <span className="text-[#5C8374]">🚀</span>
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto font-cantarella">
-            Some of the projects I've crafted with passion and precision.
-            <a
-              href="https://github.com/theCephas"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#5C8374] hover:text-[#93B1A6] transition-colors duration-300 underline underline-offset-2 ml-1"
-            >
-              View more on GitHub
-            </a>
+            A curated set of work highlighting performance and UX
           </p>
         </div>
 

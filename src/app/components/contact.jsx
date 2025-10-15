@@ -85,12 +85,12 @@ const Contact = () => {
         {/* Header */}
         <div data-aos="fade-up" className="text-center mb-16">
           <h2 className="panchang text-4xl lg:text-5xl font-bold text-white mb-6">
-            Let's Work Together
+            Let&#39;s Work Together
             <span className="text-[#5C8374] ml-2 animate-wave">👋</span>
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto font-cantarella leading-relaxed">
-            Got a project in mind? I'd love to help you bring your ideas to
-            life. Let's create something amazing together!
+            Got a project in mind? I&#39;d love to help you bring your ideas to
+            life. Let&#39;s create something amazing together!
           </p>
         </div>
 
@@ -151,7 +151,7 @@ const Contact = () => {
           </h3>
           <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
             Whether you need a new website, want to improve an existing one, or
-            have a unique project in mind, I'm here to help turn your vision
+            have a unique project in mind, I&#39;m here to help turn your vision
             into reality.
           </p>
 

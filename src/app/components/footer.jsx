@@ -77,8 +77,8 @@ const Footer = () => {
                 </h3>
                 <p className="text-white/70 text-sm leading-relaxed max-w-md">
                   Frontend Developer & Technical Writer passionate about
-                  creating digital experiences that make a difference. Let's
-                  build something amazing together.
+                  creating digital experiences that make a difference.
+                  Let&apos;s build something amazing together.
                 </p>
               </div>
 
@@ -185,6 +185,9 @@ const Footer = () => {
             >
               <Icon path={mdiArrowUp} size={1} />
             </button>
+          </div>
+          <div className="text-center text-white/50 text-xs mt-8">
+            &copy; {currentYear} Iseoluwa Osho. All rights reserved.
           </div>
         </div>
       </div>

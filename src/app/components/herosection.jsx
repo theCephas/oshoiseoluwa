@@ -7,7 +7,13 @@ import React from "react";
 import Iseoluwa from "../../app/osho.png";
 import Image from "next/image";
 import Icon from "@mdi/react";
-import { mdiGithub, mdiLinkedin, mdiDownload, mdiArrowDown } from "@mdi/js";
+import {
+  mdiGithub,
+  mdiLinkedin,
+  mdiDownload,
+  mdiArrowDown,
+  mdiArrowRight,
+} from "@mdi/js";
 
 const Herosection = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,11 +32,11 @@ const Herosection = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    });
+  const scrollToSection = (id) => {
+    const section = document.querySelector(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -73,12 +79,14 @@ const Herosection = () => {
               data-aos-delay="600"
               className="text-white/80 text-lg font-cantarella leading-relaxed mb-8 max-w-2xl"
             >
-              I'm{" "}
+              I&apos;m{" "}
               <span className="text-[#5C8374] font-semibold">
                 Osho Iseoluwa
               </span>
               , prefers to be called{" "}
-              <span className="text-[#93B1A6] font-semibold">"theCephas"</span>{" "}
+              <span className="text-[#93B1A6] font-semibold">
+                &quot;theCephas&quot;
+              </span>{" "}
               though. An experienced frontend developer passionate about
               learning, writing, documenting, and building projects that benefit
               developers and the world at large.
@@ -123,7 +131,7 @@ const Herosection = () => {
                 Download CV
               </a>
               <button
-                onClick={scrollToSection}
+                onClick={() => scrollToSection("#projects")}
                 className="inline-flex items-center justify-center px-6 py-3 border border-[#5C8374] text-[#5C8374] font-semibold rounded-xl hover:bg-[#5C8374] hover:text-white transition-all duration-300"
               >
                 View My Work
@@ -180,19 +188,6 @@ const Herosection = () => {
                 </svg>
                 <span className="text-sm">Twitter</span>
               </a>
-              {/* <a
-                href="https://devcephas.hashnode.dev"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center text-white/70 hover:text-[#5C8374] transition-all duration-300"
-              >
-                <Icon
-                  path={mdiOpenInNew}
-                  size={1}
-                  className="mr-2 group-hover:scale-110 transition-transform duration-300"
-                />
-                <span className="text-sm">Blog</span>
-              </a> */}
             </div>
           </div>
 
@@ -225,6 +220,51 @@ const Herosection = () => {
                 {/* Floating elements */}
                 <div className="absolute -top-4 -right-4 w-20 h-20 bg-[#5C8374]/20 rounded-full blur-xl animate-bounce" />
                 <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-[#93B1A6]/20 rounded-full blur-xl animate-bounce delay-1000" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* New Section */}
+        <section className="relative pt-28 pb-16 bg-gradient-to-b from-black via-gray-950 to-black">
+          <div className="absolute inset-0 -z-10">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(92,131,116,0.08),transparent_60%)]" />
+          </div>
+
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <div className="max-w-3xl" data-aos="fade-up">
+              <span className="inline-block px-3 py-1 text-sm rounded-full bg-[#5C8374]/15 text-[#93B1A6] border border-[#5C8374]/30 mb-5">
+                Frontend Developer
+              </span>
+              <h1 className="panchang text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                Building delightful, performant web experiences
+              </h1>
+              <p className="text-white/70 text-lg mt-5 font-cantarella">
+                I craft accessible, responsive interfaces with React, Next.js,
+                and Tailwind, focusing on performance and clean DX.
+              </p>
+
+              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+                <button
+                  onClick={() => scrollToSection("#projects")}
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white text-black font-semibold hover:translate-y-[-1px] active:translate-y-0 transition"
+                  aria-label="View Projects"
+                  title="View Projects"
+                >
+                  View Projects
+                  <Icon path={mdiArrowRight} size={0.9} />
+                </button>
+                <a
+                  href="/Iseoluwa_Osho_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-[#5C8374] text-black font-semibold hover:brightness-110 transition"
+                  aria-label="Download Resume"
+                  title="Download Resume"
+                >
+                  <Icon path={mdiDownload} size={0.9} />
+                  Download Resume
+                </a>
               </div>
             </div>
           </div>
